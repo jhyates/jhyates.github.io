@@ -1,24 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <title>Joseph Yates</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
-    <title>Responsive Side Menu &ndash; Layout Examples &ndash; Pure</title>
+    <meta name="description" content="Hi, my name is Joseph Yates.">
+    <meta name="keywords" content="Joseph Yates aerospace engineer gnc Astranis" />
     
+    <!-- purecss sidebar component for manipulating the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     
     <link rel="stylesheet" href="/styles/side-menu.css">
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="/combo/1.18.13?/css/layouts/side-menu-old-ie.css">
-    <![endif]-->
-    <!--[if gt IE 8]>
-        <link rel="stylesheet" href="/combo/1.18.13?/css/layouts/side-menu.css">
-    <!<![endif]-->
-    <!--[if lt IE 9]>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
-    <![endif]-->
 
+    <!-- purecss script for toggling the active class which makes the menu responsive -->
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,12 +23,10 @@
     ga('send', 'pageview');
     </script>
 </head>
+
+
+
 <body>
-
-
-
-
-
 
 <div id="layout">
     <!-- Menu toggle -->
@@ -48,13 +40,9 @@
             <a class="pure-menu-heading" href="#">Company</a>
 
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
-
-                <li class="pure-menu-item menu-item-divided pure-menu-selected">
-                    <a href="#" class="pure-menu-link">Services</a>
-                </li>
-
+                <li class="pure-menu-item menu-item-divided pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Resume</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Media</a></li>
                 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
             </ul>
         </div>
@@ -62,19 +50,19 @@
 
     <div id="main">
         <div class="header">
-            <h1>Page Title</h1>
-            <h2>A subtitle for your page goes here</h2>
+            <h1>Joseph Yates</h1>
+            <h2>About Me</h2>
         </div>
 
         <div class="content">
-            <h2 class="content-subhead">How to use this layout</h2>
+            <h2 class="content-subhead">Who I Am</h2>
             <p>
-                To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/styles/side-menu.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/scripts/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
+                Spacecraft engineer hailing from Rhode Island. Moving to the Bay Area and excited to meet new people while getting outside to hike, rock climb, and ski. Side projects are key, here I'm dabbling in some personal web design.
             </p>
 
-            <h2 class="content-subhead">Now Let's Speak Some Latin</h2>
+            <h2 class="content-subhead">What I Do</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I'm an incoming GNC engineer at Astranis, where I'll be working to build a new generation of telecom small satellites. Previously, I interned at Astranis and Firefly Aerospace (then-Firefly Space Systems), and led the Michigan eXploration Lab's MARIO CubeSat project. I hold an MSE in aerospace engineering from University of Michigan and a BSE in mechanical and aerospace engineering from Princeton University.
             </p>
 
             <div class="pure-g">
@@ -92,16 +80,13 @@
                 </div>
             </div>
 
-            <h2 class="content-subhead">Try Resizing your Browser</h2>
+            <h2 class="content-subhead">Why Am I Doing This?</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                This website serves several purposes. First, it's cool to have a website where you're totally in control, and it's been a fun side project in learning a little bit of HTML and CSS. I'm excited to see it evolve over time as my goals for the site shift and my abilities grow. Second, it's a convenient resource to point to when introducing myself to people, or want to show off my work. Third, it's an exercise in removing myself from social media &ndash; for both privacy and productivity reasons &ndash; that provides some of the things that social media does. This lets me take a step back and be pickier about my online presence. Of course, you can still find me on <a href="/scripts/ui.js">most common social media platforms</a>.
             </p>
         </div>
     </div>
 </div>
-
-
-
 
 <script src="/scripts/ui.js"></script>
 
