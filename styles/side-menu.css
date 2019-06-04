@@ -260,5 +260,7 @@ td{
 
 .contact-icon{
     color: #1f8dd6;
+    max-width: 100%;
+    height: auto;
 }
 
